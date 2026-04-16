@@ -62,13 +62,13 @@ npm run build
 This repository ships with GitHub Actions for CI and releases.
 
 - `ci.yml` runs TypeScript checks, tests, Rust tests, and a production build on pushes and pull requests.
-- `release.yml` runs on tags like `v0.1.0`, builds the extension, packages `dist/` as a zip file, and creates a GitHub Release with the artifact attached.
+- `release.yml` runs on tags like `v0.1.1`, builds the extension, packages `dist/` as a zip file, and creates a GitHub Release with the artifact attached.
 
 To cut a new release manually:
 
 ```bash
-git tag v0.1.0
-git push origin v0.1.0
+git tag v0.1.1
+git push origin v0.1.1
 ```
 
 ## License

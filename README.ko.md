@@ -62,13 +62,13 @@ npm run build
 이 저장소에는 CI와 릴리즈를 위한 GitHub Actions가 포함됩니다.
 
 - `ci.yml`: push와 pull request에서 TypeScript 체크, 테스트, Rust 테스트, 프로덕션 빌드를 실행합니다.
-- `release.yml`: `v0.1.0` 같은 태그가 push되면 확장을 빌드하고 `dist/`를 zip으로 패키징한 뒤, 해당 파일을 첨부한 GitHub Release를 생성합니다.
+- `release.yml`: `v0.1.1` 같은 태그가 push되면 확장을 빌드하고 `dist/`를 zip으로 패키징한 뒤, 해당 파일을 첨부한 GitHub Release를 생성합니다.
 
 수동으로 새 릴리즈를 만들 때는 다음 순서로 진행합니다.
 
 ```bash
-git tag v0.1.0
-git push origin v0.1.0
+git tag v0.1.1
+git push origin v0.1.1
 ```
 
 ## 라이선스
