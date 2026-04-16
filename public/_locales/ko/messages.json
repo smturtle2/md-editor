@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "md-editor"
+  },
+  "extensionDescription": {
+    "message": "Rust/WASM 코어로 구동되는 깔끔한 Chrome용 마크다운 에디터."
+  },
+  "actionOpenEditor": {
+    "message": "md-editor 열기"
+  }
+}

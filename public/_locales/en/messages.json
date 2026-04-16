@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "md-editor"
+  },
+  "extensionDescription": {
+    "message": "A clean markdown editor for Chrome powered by a Rust/WASM core."
+  },
+  "actionOpenEditor": {
+    "message": "Open md-editor"
+  }
+}
